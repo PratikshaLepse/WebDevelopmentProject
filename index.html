@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    .container1 {
+      clear: both;
+      overflow: auto;
+      padding-left: 20px;
+      padding-top: 10px;
+
+
+    }
+
+    nav {
+      float: right;
+      padding-right: 100px
+    }
+
+    .logo img {
+      float: left;
+      height: 90px;
+      width: auto
+    }
+
+    ul li {
+      display: inline-block;
+      padding: 10px;
+      font-size: 30px;
+      position: relative;
+      left: 80px;
+    }
+
+    ul li:hover {
+      color: black;
+      cursor: pointer;
+    }
+
+    * {
+      box-sizing: border-box;
+
+    }
+
+    .column {
+      float: left;
+      width: 25%;
+
+
+    }
+
+
+    /* Clearfix (clear floats) */
+    .row::after {
+      content: "";
+      clear: both;
+      display: table;
+    }
+
+    .image {
+      float: left;
+      width: 30px;
+      height: 604px;
+
+
+    }
+
+    .pic:hover .image {
+      -webkit-filter: blur(5px);
+      /* Safari 6.0 - 9.0 */
+      filter: blur(5px);
+      transition: all 0.3s ease-in-out;
+
+
+    }
+
+    /* .image:hover {
+  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 
+  filter: blur(5px);
+} */
+
+    .pic:hover .centered {
+      -webkit-opacity: 1;
+      opacity: 1;
+    }
+
+    .center {
+      margin: auto;
+      width: 50%;
+    }
+
+    .container {
+      position: relative;
+      text-align: center;
+      color: black;
+    }
+
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      opacity: 1;
+      color: White;
+      font-size: 30px;
+      font-family: Helvetica, sans-serif;
+      font-variant: small-caps;
+    }
+
+
+    .logo2 {
+      position: relative;
+      right: 400px;
+      top: 100px;
+
+
+
+    }
+
+    .column container pic {
+      float: left;
+    }
+
+    footer {
+      position: absolute;
+
+      bottom: 10;
+      left: 0;
+      right: 0;
+      background: rgba(22, 22, 22, 0.747);
+      height: auto;
+      margin-top: -100px;
+      clear: both;
+      padding-top: 20px;
+
+
+    }
+
+    .footer h2 {
+
+      font-family: 'Piedra', cursive;
+      color: rgb(185, 64, 64);
+      text-align: center;
+      font-size: 40px;
+
+    }
+
+    .footer img {
+      align-content: center;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    }
+
+
+    .socials a {
+      text-decoration: none;
+      color: rgb(34, 84, 192);
+    }
+
+    .footer-bottom p {
+      text-align: center;
+      color: darkgreen;
+    }
+
+    .footer-bottom a {
+      text-decoration: none;
+      text-align: center;
+      color: rgba(235, 212, 205, 0.589);
+    }
+
+    footer:hover {
+      background: rgba(8, 4, 7, 0.904);
+    }
+
+    .footer h2:hover {
+      color: rgba(228, 176, 8, 0.801);
+    }
+  </style>
+</head>
+
+<header>
+  <div class="container1">
+    <div class="logo">
+      <img src="giphy.gif" alt="" style="width:120px;height:120px;" />
+    </div>
+
+
+
+
+    <nav>
+      <div class="logo2">
+        <img src="logo.png" alt="" style="width:300px;height: 85px;" />
+      </div>
+
+      <ul>
+
+        <li>
+          <div class="link-background">
+            <a class="middle" style="top : 18px;text-decoration: none; color:black" href="Portfolio.html#">Portfolio</a>
+          </div>
+        </li>
+
+        <li>
+          <div class="link-background">
+            <a class="middle" style="top : 18px;text-decoration: none; color:black" href="first%20(1).html">Contact Us</a>
+          </div>
+        </li>
+
+        <li>
+          <div class="link-background">
+            <a class="middle" style="top : 18px;text-decoration: none; color:black" href="Untitled-1.html">About Us </a>
+          </div>
+        </li>
+
+      </ul>
+    </nav>
+  </div>
+
+</header>
+
+
+<body>
+
+
+
+  <br>
+  <br>
+
+
+
+  <div class="row center ">
+
+    <div class="column container pic">
+      <a href="landscape.html">
+        <img class="image" src="landscape.png" alt="Nature" style="width:100%;  position: relative; right: 170px;">
+        <div class="centered">
+          <div class="link-background">
+
+            <a class="middlew" style="left:-170px; text-shadow: 2px 2px 2px rgba(1,1,1,1);"> Landscape <a>
+
+          </div>
+        </div>
+      </a>
+    </div>
+
+
+
+    <div class="column container pic">
+      <a href="wedding.html">
+        <img class="image" src="4cb576c027f7f86117cc7b7673ab5b13.jpg" alt="Food"
+          style="width:100%; position: relative; left: -150px;">
+        <div class="centered">
+          <div class="link-background">
+            <a class="middlew" style="left:-140px; text-shadow: 2px 2px 2px rgba(1,1,1,1);">Wedding<a>
+          </div>
+        </div>
+      </a>
+    </div>
+
+
+    <div class="column container pic">
+      <a href="wildlife.html">
+        <img class="image" src="pexels-photo-374719.jpeg" alt="Portfolio"
+          style="width:100%;  position: relative; left: -130px;">
+        <div class="centered">
+          <div class="link-background">
+            <a class="middlew" style="left:-130px; text-shadow: 2px 2px 2px rgba(1,1,1,1); ">Wildlife</a>
+          </div>
+        </div>
+      </a>
+    </div>
+
+
+    <div class="column container pic">
+      <a href="adv.html">
+        <img class="image" src="wp5555815.jpg" alt="Fashion" style="width:100%;  position: relative; left: -110px;">
+        <div class="centered">
+          <div class="link-background">
+            <a class="middlew" style="left:-110px; text-shadow: 2px 2px 2px rgba(1,1,1,1);">Adventure Sports</a>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <div class="column container pic">
+      <a href="baby shower.html">
+        <img class="image" src="photo-1503284116362-30c49f508156.jpg" alt="Fashion"
+          style="width:100%;  position: relative; left: 665px; bottom: 606px;">
+        <div class="centered">
+          <div class="link-background">
+            <a class="middlew" style="left:665px; bottom: 608px; ;text-shadow: 2px 2px 2px rgba(1,1,1,1);">Baby
+              Shower</a>
+          </div>
+        </div>
+      </a>
+    </div>
+
+
+  </div>
+
+
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+
+
+
+  <footer>
+    <div class="footer">
+      <h2>The Shutter Up</h2>
+      <p>
+        <img src="logo.gif" width="100px" height="100px">
+
+      </p>
+
+
+
+      <div class="footer-bottom">
+        <p> <b> <a href="term.html">Terms and Conditions</a> </b> </p>
+        <p><b>Copyright &copy;2020 The Shutter Up</b></p>
+      </div>
+  </footer>
+
+
+</body>
+
+</html>

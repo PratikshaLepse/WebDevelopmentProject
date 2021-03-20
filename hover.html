@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+.imgtext {
+  color: white;
+  width: 155px;
+  height: 135px;
+  padding: 50px 15px 0 15px;
+  opacity: 0;
+  position: absolute;
+  bottom: 0px;
+}
+
+.pic {
+  position: relative;
+  overflow: hidden;
+  width: 400px;
+  height: 400px;
+  margin: 50px auto;
+}
+
+.pic:hover .image  {
+    -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  filter: blur(5px)
+}
+
+.pic:hover .imgtext {
+  -webkit-opacity: 1;
+  opacity: 1;
+}
+    </style>
+</head>
+<body>
+    <div class="pic">
+        <img class="image" src="hero-bg.png">
+        <span class="imgtext">
+          <h1>THIS IS A TITLE</h1>
+          <p>and this is a description</p>
+        </span>
+        <img class="image" src="hero-bg.png">
+        <span class="imgtext">
+          <h1>THIS IS A TITLE</h1>
+          <p>and this is a description</p>
+        </span>
+      </div>
+</body>
+</html>

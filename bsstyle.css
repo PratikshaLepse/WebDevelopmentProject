@@ -1,0 +1,135 @@
+.box{
+    display:block;
+    float: left;
+    width: 20%;
+    padding: 10px;
+    padding-left: 15px;
+}
+
+
+
+main{
+    margin-left: 150px;
+
+}
+.box img{
+    width:100%;
+    border: 10px slategray;
+    border-radius: 15px;
+    padding: 10px ;
+}
+body{
+    background: rgba(120, 191, 238, 0.849);
+}
+.box img:hover{
+    transform: scale(2,2);
+    transition: .5s transform;
+}
+.navbar{
+    
+    border-radius: 4px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 20px;
+  }
+  .navbar li{
+    float:left;
+    list-style: none; 
+    margin: 20px 20px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li a{
+    padding: 4px 4px;
+    text-decoration: none;
+    color: rgb(8, 4, 27);
+    font-size: 30px;
+}
+.navbar input{
+    border: 2px solid rgb(122, 6, 6);
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
+h1
+{
+    text-align: center;
+    font-size:100px;
+
+    font-family: 'Great Vibes', cursive;
+    color: rgb(25, 2, 36);
+
+}
+.navbar li a:hover{
+    color: rgb(201, 80, 151);
+}
+h1:hover
+{
+    color: rgb(160, 2, 81);
+}
+
+
+.down img{
+    width: 50px;
+    height:50px ;
+}
+.down h2{
+    color: rgb(196, 122, 11);
+}
+footer{
+    position: relative;;
+    bottom: 10;
+    left: 0;
+    right: 0;
+    background: rgba(22, 22, 22, 0.747);
+    height: auto;
+    margin-top: -100px;
+    clear: both;
+    padding-top: 20px;
+    
+}
+
+.footer h2{
+    
+    font-family: 'Piedra', cursive;
+    color: rgb(185, 64, 64);
+    text-align: center;
+    font-size: 40px;
+
+}
+.footer img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    
+}
+.socials ul{
+    display: flex;
+    position: absolute;
+    transform: translate(-30%, -30%);
+    
+
+    
+}
+.socials a{
+    text-decoration: none;
+    color: rgb(34, 84, 192);
+}
+.footer-bottom p{
+    text-align: center;
+    color: darkgreen;
+}
+.footer-bottom a{
+    text-decoration: none;
+    color: rgba(235, 212, 205, 0.589);
+}
+footer:hover
+{
+    background: rgba(8, 4, 7, 0.904);
+}
+.footer h2:hover
+{
+    color: rgba(228, 176, 8, 0.801);
+}
